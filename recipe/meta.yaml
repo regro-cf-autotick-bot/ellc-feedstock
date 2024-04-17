@@ -1,5 +1,5 @@
 {% set name = "ellc" %}
-{% set version = "1.8.7" %}
+{% set version = "1.8.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ellc-{{ version }}.tar.gz
-  sha256: f89553541d1931a1ef63dd27f1c32f193482e88a70a90831808c2f21c2032d63
+  sha256: d3153e3ac3f548ac430a9d1ec9e1d6bd4df6dd95a51b691c9eeea0f302900d1a
 
 build:
   number: 0
