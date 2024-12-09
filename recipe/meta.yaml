@@ -11,7 +11,7 @@ source:
   sha256: f89553541d1931a1ef63dd27f1c32f193482e88a70a90831808c2f21c2032d63
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - pip
     - python
   run:
-    - astropy >=1.1.1
+    - astropy-base >=1.1.1
     - numpy >=1.10.0
     - python
     - {{ pin_compatible('numpy') }}
